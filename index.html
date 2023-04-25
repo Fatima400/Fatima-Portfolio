@@ -5,76 +5,291 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mein projekt</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link
-    rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-  />
-  
-  <link rel="stylesheet" href="style.css" />
-
-</head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 <body>
-     <header>
-        <div class="header_text">
-         <nav>
-        <input type="checkbox" id="toggle_button" />
-        <label for="toggle_button">
-          <!-- hamburger via google fonts , it is part of checkbox-->
-          <span class="material-symbols-rounded">menu</span>
-        </label>
-        <ul>
-          <li><a href="#about_me_section">Über mich</a></li>
-          <li><a href="#services_section">Dienstleistungen</a></li>
-          <li><a href="#more_information_section">Mehr Informationen</a></li>
-        </ul>
-      </nav>
-      <h1>Mein Name,<br />Webdeveloper</h1>
-      <p class="subheading">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis,
-        facilis. Repudiandae vero provident mollitia ea doloribus porro
-        deserunt minus quod hic officiis accusantium, harum sint iusto
-        molestias magni impedit eius, delectus facilis in maiores veniam ipsum
-        blanditiis sapiente ullam. Fugit?
-      </p>
+  <!-- have a nav container to use in mobile mode as card -->
+  <nav>
+    <!-- checkbox to click, will be hidden -->
+    <input type="checkbox" id="toggle_button" />
+    <!-- label refering to checkbox #toggle button -->
+    <label for="toggle_button">
+      <!-- hamburger symbol via google fonts -->
+      <span class="material-symbols-rounded">menu</span>
+    </label>
+    <!-- normal list with navigation information as links -->
+    <ul>
+      <li><a href="#about_me_section">Über mich</a></li>
+      <li><a href="#services_section">Dienstleistungen</a></li>
+      <li><a href="#more_information_section">Mehr Informationen</a></li>
+    </ul>
+  </nav>
+    <div class="container" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"> </div>
+        <div class="bar4"> </div>
+        <div class="bar5"> </div>
     </div>
-    <div class="circle">
-        <!-- <img src="images/pexels-photo-2379005.jpeg" alt="Portrait" /> -->
-        <img src="./images/head image.jpg" alt="Portrait" />
-      </div>
-    
-     </header>
+    <nav>
+        <a href="">Home</a>
+        <a href="">about</a>
+        <a href="">projects</a>
+        <a href="">Testimonial</a>
+        <a href="">Contact</a>
+    </nav>
+    <section class="home">
 
-     <section id="about_me_section">
-        <div class="about_me_container">
-          <h2>Über mich</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-            aperiam quaerat aliquid incidunt saepe, sed sequi aliquam accusamus
-            laudantium sit consequuntur quam numquam atque velit eligendi tenetur
-            facilis. Blanditiis dolore quidem quam voluptates provident
-            accusantium amet cum dicta repellendus eius tenetur deserunt ea
-            laboriosam fugit esse, fuga sequi, illum soluta! Natus fugiat, itaque
-            optio sit laborum quibusdam repellat magni debitis consequatur totam
-            aliquam placeat. Odio accusantium numquam exercitationem beatae velit
-            ex autem qui pariatur. Aspernatur quaerat in maxime eveniet deleniti,
-            id repellendus fugit delectus. Doloribus fuga nam voluptatem
-            perferendis ex, numquam rem doloremque accusantium corporis. In
-            doloremque velit aut officia laboriosam veniam odit facere deserunt,
-            alias reprehenderit, molestiae dignissimos? Repellendus doloremque,
-            reiciendis libero perspiciatis officia consectetur dignissimos quod
-            necessitatibus aspernatur aliquam, doloribus enim ut pariatur quasi
-            qui? Veniam, sunt quas.
-          </p>
+        <div class="content card">
+            <h6>I'm Amy </h6>
+            <h1>Pixels with <br> purpose</h1>
+            <p>
+                I work with companies and agencies around the world, building Web sites and application UIs with strong focus on responsive design, accessibility, performance,
+            </p>
+            <div class="btn">
+                <button href="" class="sub">See my Works</button>
+                <!-- <input type="submit" value="See My Works" class="sub"> -->
+                <span class="material-symbols-outlined " id="play">
+                    play_circle
+                </span>
+            </div>
+
+
         </div>
-        <img src="./images/pexels-photo-2379004.jpeg" alt="that is me" />
-        
-      </section>
-    <footer>
+        <div class="img card"></div>
+    </section>
 
-    </footer>
-</html>
+    <section class="services">
+        <h1 class="main">SERVICES </h1>
+        <div class="cards">
+            <div class="card">
+                <div><span class="material-symbols-outlined circle-icon1">
+                        desktop_windows
+                    </span></div>
+                <h3> Web Design </h3>
+                <p>I build up the high performance website with blazing fast speed. Website with high performance can lead the visitor more. </p>
+            </div>
+            <div class="card">
+                <div><span class="circle-icon2 material-symbols-outlined">
+                        science
+                    </span></div>
+                <h3>UI/UX</h3>
+                <p>I do ui/ux design for the website that assists website to get an outstanding look. Unique design creates an unique personality for websites. </p>
+            </div>
+            <div class="card">
+                <div><span class=" circle-icon3 material-symbols-outlined">
+                        find_in_page
+                    </span></div>
+                <h3>SEO</h3>
+                <p>With SEO, your business wants to increase its visibility in search results on search engines. I also provide SEO services to rank your website.
+                </p>
+            </div>
+        </div>
+    </section>
 
+
+    <section class=testimonial></section>
+    <h1 class="main">TESTIMONIAL </h1>
+    <div class="cards">
+        <div class="card Testi">
+            <img class="profile" src="./image/sayed.jpg" alt="">
+            <h3 class="name">Mr. Sayed</h3>
+            <p>CTO, TechG</p>
+            <div><span class="material-symbols-outlined">
+                chat
+                </span></div>
+            <p>AMY conveys quality work. She is an excellent individual and an extraordinary cooperative person. She is extremely straightforward and puts all her energy to follow through on schedule.
+            </p>
+        </div>
+        <div class="card Testim">
+            <div id="profile2"></div>
+
+            <h3 class="name">Shaif Arfan</h3>
+            <p>CEO, WEBc.</p>
+            <div><span class="material-symbols-outlined">
+                chat
+                </span></div>
+            <p>I've worked with many individuals who are tendentious and driven by things other than the work they're doing. AMY is genuinely energetic about the web and the items she makes for it and that is quite darn marvelous.</p>
+        </div>
+        <div class="card Testi">
+            <div id="profile3"></div>
+            <h3 class="name">Ayan Khan</h3>
+            <p>Singer</p>
+            <div><span class="material-symbols-outlined">
+                chat
+                </span></div>
+            <p>AMY is a wonderfully creative, collaborative, and gifted developer who excels at creating inclusive digital solutions.</p>
+        </div>
+    </div>
+    </section>
+    <section class="stats">
+        <h1 class="main" >stats</h1>
+        <div class="ticket">
+          <div class="tik a">
+            <h1 class="h11" >50+</h1>
+            <h6 class="h66">Projects done</h6>
+            <p>I worked on more than 50+ projects. I know how to make things fascinating and eye-catching. Making high
+              performance website is always a sign of mine.</p>
+          </div>
+          <div class="tik b">
+            <h1 class="h11">30+</h1>
+            <h6 class="h66">Happy clients</h6>
+            <p>I worked with more than 30+ clients. Client satisfaction is my main priority. I generally attempt to
+              complete the work before the deadline.</p>
+          </div>
+          <div class="tik c">
+            <h1 class="h11">4+</h1>
+            <h6 class="h66">Years experience</h6>
+            <p>I worked with more than 30+ clients. Client satisfaction is my main priority. I generally attempt to
+              complete the work before the deadline.</p>
+          </div>
+        </div>
+        </section>
+        <section class="About">
+            
+            <h1 class="main" >About</h1>
+               <div class="container">
+                <div class="aboutt">
+                  <img src="./image/profile.jpg" alt="Avatar" class="avatar">
+                  <p>I’m a freelance web designer and developer based in Bangladesh. I love the Web platform
+                    and I need to improve it for
+                    everybody. What's more, I believe myself to be totally honored that I will assemble it professionally.</p>
+                  <h3>AMY Jr</h3>
+                  <h5>CEO of My Com</h5>
+                </div>
+                <div class="aboutl">
+                  <h6>Hi! This is AMY</h6>
+                  <h3>Freelance Web Designer  </h3>
+                  <p>I work with companies and agencies around the world, building Web 
+                    designer and developer sites and application UIs with strong focus on responsive design, 
+                    based in Bangladesh. I accessibility, performance, and the latest in the area of front- love the Web platform end (Javascript, react, gatsby, node, Python, djengo) I also and I need to improve it speak and run workshops across the globe, also focusing on CSS, 
+                    for everybody. What's SVG, Responsive Design and accessibility, covering practical tips 
+                    more, I believe myself on how to build full stack using modern tools and techniques that 
+                    to be totally honored scale and are future-proof.</p>
+
+                  <div class="click">
+                    <a class="Download"href="#">Download Resume</a>
+                    <a class="hire" href="#"> Hire Me</a>
+                  </div>
+                  
+                </div>
+              </div>
+        </section>
+
+        <h1 class="main" >Projects</h1>
+
+        <section class="Projects">
+
+        <div class="one">
+        <div class="right">
+          <img>
+        </div>
+        <div class="left">
+          <h3>Real Chat</h3>
+          <h6>Online real time chat app.</h6>
+          <p>I made this application for a USA customer. This application is truly Amazing. Here
+            you can chat with your friend
+            constantly inside a secure environment and there will be no information reserved after the end of the
+            session.</p>
+            <a class="Download" href="#">know More</a>
+            
+            <a class="hire" herf="#"> Preview <span class="material-symbols-outlined" id="icon">
+              open_in_new
+              </span> </a>
+            
+            
+        </div>
+        </div>
+        <div class="two">
+          <div class="text">
+            <h3>Hotel Zaman Website </h3>
+            <h6>A website for hotel zaman. </h6>
+            <p>Hotel zaman is one of the famous hotel in 
+              Chittagong. We created their website. The 
+              client wanted a clean and smooth design which 
+              I was able to provide at the end of the 
+              project. </p> 
+              <a class="Download" href="#">know More</a>
+              <a class="hire"  herf="#"> Preview  <span class="material-symbols-outlined">
+                open_in_new
+                </span> </a>
+          </div>
+          <div class="foto">
+            <img>
+          </div>
+        </div> 
+         
+          <div class="three">
+            <div class="right">
+              <img>
+            </div>
+            <div class="left">
+              <h3>Prinazz Website </h3>
+              <h6>A website for music studio </h6>
+              <p>Piranz is one of the famous music composer in 
+                UAE. The challenge was to keep the music 
+                environment in the web. It was hard but in the 
+                end we provided a good quality website that 
+                satisfied the client. </p>
+              <a  class="Download" href="#">know More</a>
+              <a class="hire"  herf="#"> Preview  <span class="material-symbols-outlined">
+                open_in_new
+                </span> </a>
+            </div>
+            </div>
+        </section>
+
+
+        <footer>
+          <div class="box">
+        <div class="eins xxx"> 
+        <img>
+        <p>A freelance web designer and developer from Chittagong, Contact Chittagong, Bangladesh 
+          Bangladesh. I generally make websites that have extraordinary Project 
+          designs and also have a good performance rate. </p>
+        </div>
+
+        <div class="zwei  xxx">
+        <h3>Important <br>Links</h3>
+        <div class="buttonbar">
+          <a href="home">Home</a> 
+          <a href="about">About</a> 
+          <a href="contact">Contact</a> 
+          <a href="project">Project</a> 
+          <a href="testimonial">Testimonial</a> 
+
+
+  
+        </div>
+
+        </div>
+
+        <div class="drei xxx">
+          <h3>Contact<br>Info </h3>
+          <p>Webcifar@gmail.com </p>
+          <p>+192482354 </p>
+          <p>Chittagong, Bangladesh </p>
+        </div>
+
+        <div class="vier xxx">
+          <h3>Social<br> Links</h3>
+          <p>FB  TW </p>
+          <p>IG   Li </p>
+        </div>
+      </div>
+    </div>
     
+        </footer>
+        <div class="foot">
+          <p> Copyright 2021 AMY. All right Reserved </p>
+        </div> 
+</body>
+
+</html>
