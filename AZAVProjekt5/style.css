@@ -1,0 +1,141 @@
+* {
+    /* margin: 0;
+    padding: 0; */
+  }
+  
+  body {
+    background-color: #f9ffd2;
+    box-sizing: border-box;
+  }
+  .heroImage {
+    /* background image parameters */
+  background-image: url("https://www.adac.de/-/media/images/touristik/staedte/muenchen-1912-926x383.jpg?bc=white&as=0&mh=315&mw=762&hash=F582E2E778ED6BACAE824F7A08320FF2");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  /* width 70% of body width */
+  width: 70%;
+  height: 450px;
+  border: 1px solid black;
+  border-radius:5%;
+  /* place picture in center (auto) and 20px margin top bottom */
+  margin: 20px auto;
+}
+h1 {
+    color: white;
+    /* width 80% of parent (heroImage) width */
+    width: 50px;
+    background-color: #FFAD32;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    /* place text in center (auto) and 20px margin top bottom */
+    margin: 20px auto;
+}
+.card {
+  
+    width: 250px;
+    height: 450px;
+    border: 1px solid #378131;
+    border-radius: 8px;
+    background-color: #DEF3D4;
+    margin: 20px 20px;
+  
+    position: relative;
+    
+    
+
+}
+.p{
+
+text-align: left;
+font-size: 18px;
+
+
+
+}
+.cardImage {
+    
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 8px 8px 0 0;
+}
+.ballabeni{
+    background-image: url('https://www.muenchen.travel/var/ger_muc/storage/images/_aliases/stage_large/0/8/1/1/2181180-1-ger-DE/eisdielen-eisessen-frank-stolle-4247.jpg');
+    background-position: center;
+}
+.textdetails {
+    /* border: 2px solid pink; */
+  
+    text-align: center;
+    height: 200px;
+    
+    width: 240px;
+   
+}
+.route {
+    background-color: #378131;
+    color: white;
+    width: 50%;
+    padding: 10px;
+    border-radius: 8px;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: -18px;
+
+    
+}
+.route:hover{
+    background-color:#A0C28B;
+}
+ .one{
+   background-image: url("./image/OIP.jpg") ;
+}.two{
+  background-image: url("image/th.jpg");  
+}
+.three{
+    background-image: url("image/2222.jpg");  
+}
+.four{ background-image: url("./image/th\ \(1\).jpg");
+ }
+
+.five{ background-image: url("image/essnundtrinken05.png");
+ }
+
+.six{
+     background-image: url("./image/33333333333.jpg");
+}
+
+.seven{
+    background-image: url("./image/20200630-190014-largejpg.jpg");
+}
+
+
+.eight{
+    background-image: url("./image/4444444444.jpg");
+
+}
+.nine{
+    background-image: url("./image/555555555555555.jpg");
+}
+
+.ten{
+    background-image: url("./image/666666666666.jpg");
+}
+
+.eleventh{
+    background-image: url("./image/777777777777.webp");
+}
+
+.twelfth{
+    background-image: url("./image/8888888888888.jpg");
+}
+.resturant{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1 rm;
+    justify-content: left;
+}

@@ -1,0 +1,189 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body {
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+}
+header{ padding-bottom:200px;
+    background-image:url("./src/reise/pexels-paul-ijsendoorn-33041.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+  
+}
+
+.navbar{
+    
+    display: flex;
+    justify-content: end;
+
+    
+    
+}
+a{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 20px;
+    font-size: 40px;
+    color: aliceblue
+    
+    
+}
+.title{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 300px;
+    font-size: 50px;
+}
+#kontakt{
+    padding: 5px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    margin-top: 40px;
+}
+    h2{
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 50px;
+
+    }
+#aboutus{ 
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+  
+
+
+}
+.imgg img {
+    width: 350px;
+    height: 230px;
+    background-image: url(./src/mitglieder/pexels-matheus-bertelli-2467506.jpg);
+    background-position: center;
+    margin-top: 75px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+   
+p{
+    width: 600px;
+   margin-bottom: 30px;
+}
+#imag2{
+    width: 200px;
+    height: 350px;
+    background-image: url(./src/reise/pexels-ainbinder-5029795.jpg);
+    background-position: center;
+    margin-top: 75px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: 25px;
+}
+
+#section2{
+    display: flex;
+    justify-content: space-around;
+    gap:50px;
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.reise{
+    text-align: center;
+    color:aqua;
+    margin-top: 200px;
+    margin-bottom: 30px;
+
+}
+.pp{
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    margin-top:20px ;
+}
+#lorem{
+    padding: 5px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    
+   
+}
+
+.hh1{
+    color: #000;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+#karten{
+    width: 270px;
+    height: 300px;
+    border: 2px solid black;
+
+    border-radius: 10%;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.kund{
+    width: 50px;
+    height: 40px;
+    text-align: center;
+
+}
+.cardd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.avatar {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 100px;
+  }
+  .ppp{
+    width: 240px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+  }
+footer{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(225, 162, 207);
+}
+.hh11{
+    color: #000;
+    text-align: center;
+    font-size: 50px;
+ 
+  padding: 50px;
+}
+.con{
+    width: 90%;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 50px 50px;
+}

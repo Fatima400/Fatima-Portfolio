@@ -1,0 +1,74 @@
+* {
+  /* margin: 0;
+  padding: 0; */
+}
+
+body {
+  background-color: #f9ffd2;
+}
+.heroImage {
+    /* background image parameters */
+  background-image: url("https://www.adac.de/-/media/images/touristik/staedte/muenchen-1912-926x383.jpg?bc=white&as=0&mh=315&mw=762&hash=F582E2E778ED6BACAE824F7A08320FF2");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  /* width 70% of body width */
+  width: 70%;
+  height: 450px;
+  border: 1px solid black;
+  border-radius:5%;
+  /* place picture in center (auto) and 20px margin top bottom */
+  margin: 20px auto;
+}
+h1 {
+    color: white;
+    /* width 80% of parent (heroImage) width */
+    width: 80%;
+    background-color: #FFAD32;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    /* place text in center (auto) and 20px margin top bottom */
+    margin: 20px auto;
+}
+
+/* ########################### CARDS ############################ */
+
+.card {
+    width: 250px;
+    height: 360px;
+    border: 1px solid #378131;
+    border-radius: 8px;
+    background-color: #DEF3D4;
+    margin: 20px auto;
+}
+/* picture inside card */
+.cardImage {
+    width: 250px;
+    height: 160px;
+    background-size: cover;
+    border-radius: 8px 8px 0 0;
+}
+/* background image URL */
+aa.ballabeni{
+    background-image: url('https://www.muenchen.travel/var/ger_muc/storage/images/_aliases/stage_large/0/8/1/1/2181180-1-ger-DE/eisdielen-eisessen-frank-stolle-4247.jpg');
+}
+/* text inside card */
+.textdetails {
+    /* border: 2px solid pink; */
+    text-align: center;
+    height: 200px;
+}
+/* Button in card */
+.route {
+    background-color: #378131;
+    color: white;
+    width: 50%;
+    padding: 10px;
+    border-radius: 8px;
+}
+.route:hover{
+    background-color:#A0C28B;
+}
