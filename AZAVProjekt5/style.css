@@ -7,6 +7,7 @@
     background-color: #f9ffd2;
     box-sizing: border-box;
   }
+  
   .heroImage {
     /* background image parameters */
   background-image: url("https://www.adac.de/-/media/images/touristik/staedte/muenchen-1912-926x383.jpg?bc=white&as=0&mh=315&mw=762&hash=F582E2E778ED6BACAE824F7A08320FF2");
@@ -139,3 +140,20 @@ font-size: 18px;
     gap:1 rm;
     justify-content: center;
 }
+@media( max-width:641px){
+    boby{
+     font-size: 12px;
+    }
+    .main-content h2{
+     font-size: 0.8em;
+    }
+    .main-content h3{
+     font-size: 1.4em;
+    }
+    h1 {
+        
+        margin-left: 10px;
+    }
+ }
+ 
+ 
