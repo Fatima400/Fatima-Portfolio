@@ -137,5 +137,5 @@ font-size: 18px;
     display: flex;
     flex-wrap: wrap;
     gap:1 rm;
-    justify-content: left;
+    justify-content: center;
 }
