@@ -26,3 +26,7 @@ ich habe fünf projekten gemacht:
  5- Project4-advanced-main: Die Hausaufgaben.
  
  
+ ich habe viele verschiedene Code benutzt, so wie :
+ Grid / flexbox / media query css/ position / after / hover / margin/Padding/ z-index/ text schdows /border/border-radius/background-image .....ets.
+ 
+ 
