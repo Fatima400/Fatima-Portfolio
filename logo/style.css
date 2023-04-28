@@ -19,10 +19,24 @@ body{
     z-index: -1;
 }
 .white{
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
+    margin: 73px 73px;
     background-color: white;
     position: relative;
-    transform: rotateX(12deg);
+    rotate: 45deg;
     z-index: 1;
+
+
+}
+.circl{
+   width: 150px;
+   height:150px;
+   background-color: rgb(229, 125, 51);
+   border-radius: 50%;
+   margin-left: 50%;
+   margin-bottom: 50%;
+   position: relative;
+   z-index: 2;
+   margin: 50px 50% 50px 50%;
 }
